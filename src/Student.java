@@ -4,8 +4,8 @@ import java.util.List;
  * Created by ethan on 2017-02-07.
  */
 public class Student extends Person {
-    String major;
-    List<Course> courseList;
+     String major;
+     List<Course> courseList;
 
     public Student(String name, String emailAddress, String major) {
         super(name, emailAddress);
